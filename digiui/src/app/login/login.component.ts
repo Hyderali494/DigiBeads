@@ -13,4 +13,14 @@ export class LoginComponent implements OnInit {
   }
 
  title = 'Login Page';
+  hero: Hero = {
+    id: 1,
+    name: 'Windstorm'
+  };
+
+  sree: Sree = {
+    id: 1,
+    name: 'Windstormw'
+  };
+
 }
